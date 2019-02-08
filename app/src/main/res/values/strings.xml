@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">BaseDeDatos</string>
+    <string name="edit_codigo">Código del producto</string>
+    <string name="edit_description">Descripción del producto</string>
+    <string name="edit_num">Precio del producto</string>
+    <string name="btn_regis">Registrar producto</string>
+    <string name="btn_search">Buscar producto</string>
+    <string name="btn_delete">Eliminar producto</string>
+    <string name="btn_update">Modificar producto</string>
+    <string name="register">Registro de productos</string>
+    <string name="llenar_campo">Debes llenar todos los campos</string>
+    <string name="exito">Registro exitoso</string>
+    <string name="llenar_code">Debes introducir el codigo del articulo</string>
+    <string name="no_exist">Este articulo no existe</string>
+    <string name="code_into">Debes introducir el codigo del articulo</string>
+    <string name="exit_delete">Articulo eliminado exitosamente</string>
+    <string name="articulo_null">El articulo no existe</string>
+    <string name="update_exit">Articulo modificado exitosamente</string>
+</resources>

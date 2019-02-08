@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_margin="10sp"
+            android:textSize="24sp"/>
+
+        <EditText
+            android:id="@+id/edit_number"
+            android:layout_width="220sp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_gravity="center"
+            android:layout_margin="10sp"
+            android:hint="@string/edit_codigo"/>
+
+        <EditText
+            android:id="@+id/edit_name"
+            android:layout_width="220sp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:layout_gravity="center"
+            android:layout_margin="10sp"
+            android:hint="@string/edit_description"/>
+
+        <EditText
+            android:id="@+id/edit_numberD"
+            android:layout_width="220sp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_gravity="center"
+            android:layout_margin="10sp"
+            android:hint="@string/edit_num"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_margin="10sp">
+
+            <Button
+                android:layout_width="100sp"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_regis"
+                android:background="@color/colorVerde"
+                android:layout_margin="5sp"
+                android:onClick="Register"/>
+
+            <Button
+                android:layout_width="100sp"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_search"
+                android:background="@color/colorAzul"
+                android:layout_margin="5sp"
+                android:onClick="Search"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_margin="10dp">
+
+            <Button
+                android:layout_width="100sp"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_update"
+                android:background="@color/colorAmarillo"
+                android:layout_margin="5sp"
+                android:onClick="Update"/>
+            <Button
+                android:layout_width="100sp"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_delete"
+                android:background="@color/colorRojo"
+                android:layout_margin="5sp"
+                android:onClick="Delete"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>
